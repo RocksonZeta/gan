@@ -1,8 +1,3 @@
-# gan
-gan simplest impl
-
-
-```python
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -86,5 +81,3 @@ for epi in range(1):
 		loss_func(Variable(xs.squeeze().view(BATCH_SIZE , X_DIM)) , zs)
 		
 plt.ioff()
-
-```
